@@ -1,0 +1,81 @@
+{% extends "Front/base.html.twig" %}
+{% block header %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block title %}Administration{% endblock %}
+
+{% block content %}
+    <div class="policeDoc">
+
+
+        <section class="main-container">
+
+            <div class="container">
+                <div class="row">
+                    {% for k, v in message %}
+                        <div class="alert alert-{{ k }}">{{ v }}</div>
+                    {% endfor %}
+
+                    <!-- sidebar start -->
+                    <aside class="col-md-3">
+
+
+                            <div class="sidebar">
+                                <div class="block clearfix">
+                                    <h3 class="title">Administration</h3>
+                                    <div class="separator separator-fullwidth"></div>
+                                    <nav>
+
+                                            <ul class="nav nav-pills nav-stacked">
+
+                                                <li><a href="{{ site }}Admin">Accueil</a></li>
+
+                                            </ul>
+
+                                    </nav>
+                                </div>
+                            </div>
+
+                    </aside>
+                    <!-- sidebar end -->
+
+                    <!-- main start -->
+                    <!-- ================ -->
+                    <div class="main col-md-8 col-md-offset-1">
+
+<div class="row">
+    <div class="col-md-3">
+        <h4 class="text-center">Catégories de la documentation</h4>
+
+        <a href="{{ site }}Admin/Categ-doc"> <div class="box-style-1 gray-bg object-non-visible animated object-visible fadeInLeft" data-animation-effect="fadeInLeft" data-effect-delay="0">
+            <i class="fa fa-sitemap"></i>
+        </div>
+        </a>
+    </div>
+    <div class="col-md-3">
+        <h4 class="text-center">Pages de la documentation</h4>
+
+        <a href="{{ site }}Admin/doc"> <div class="box-style-1 gray-bg object-non-visible animated object-visible fadeInLeft" data-animation-effect="fadeInLeft" data-effect-delay="0">
+            <i class="fa fa-book"></i>
+        </div>
+        </a>
+    </div>
+
+
+</div>
+
+                    </div>
+                    <!-- main end -->
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- fin Content -->
+
+{% endblock %}
+
+{% block footer %}
+    {{ parent() }}
+{% endblock %}
