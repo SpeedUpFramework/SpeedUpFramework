@@ -61,4 +61,4 @@ Vous pouvez trouver les questions en suspens sur le [GitHub Issue Tracker](https
 
 ## License
 
-Speedup Framework est sous license MIT, vous pouvez la consulter [ici](https://github.com/SpeedUpFramework/SpeedUpFramework/blob/master/LICENSE.txt).
+Speedup Framework est sous license MIT, vous pouvez la consulter [ici](https://github.com/SpeedUpFramework/SpeedUpFramework/blob/master/LICENSE.md).
