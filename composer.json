@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-        "description": "The Laravel Lumen Framework.",
-        "keywords": ["framework", "laravel", "lumen"],
+    "name": "Speedup/Framework",
+        "description": "The SpeedUp Framework.",
+        "keywords": ["framework", "SpeedUp"],
         "license": "MIT",
         "type": "project",
         "require": {
@@ -9,7 +9,7 @@
           "illuminate/events": "~5.1.16",
           "illuminate/database": "*",
           "symfony/console": "^3.0",
-          
+
           "omnipay/paypal": "~2.0",
         "phpmailer/phpmailer": "^5.2",
         "twig/twig": "^1.24",
