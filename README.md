@@ -9,7 +9,7 @@
 - [Qu'est ce que SpeedUp Framework?](#Qu'est-ce-que-SpeedUp-Framework)
 - [Prérequis](#Prérequis)
 - [Installation](#installation)
-    - [Recommendée](#Recommendée)
+    - [Recommendée](#Recommendee)
 - [Documentation](#documentation)
 
 - [License](#license)
@@ -35,7 +35,7 @@ Le framework est livré avec une gamme de classes dites "Services" Afin de vous 
 ## Installation
 
 #### Recommendée
-Le framework est disponible sur [Packagist](https://packagist.org/packages/nova-framework/framework).
+Le framework est disponible sur [Packagist](https://packagist.org/packages/speedup/framework).
 
 
 Vous pouvez installer le framework à l'aide de la commande:
