@@ -41,7 +41,7 @@ Le framework est disponible sur [Packagist](https://packagist.org/packages/speed
 Vous pouvez installer le framework à l'aide de la commande:
 
 ```
-composer create-project SpeedUpFramework/SpeedUpFramework DOSSIER -s dev
+composer create-project speedup/framework DOSSIER -s dev
 ```
 Par la suite vous devez installer les composants node via la commande:
 
