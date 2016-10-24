@@ -8,9 +8,11 @@ use Services\Session;
 class Config{
 
   public function __construct(){
-    define('DIR', "URLDUSITE");
+
+    define('DIR', "http://localhost/Speedup/");
     define('APPDIR', $_SERVER['DOCUMENT_ROOT'].DIR.'Application/');
     define('TEMPLATE', DIR.'Templates/Default/');
+    define('ASSETS', $_SERVER['DOCUMENT_ROOT']."/Speedup/Templates/Default/");
 
     Session::init();
     $capsule = new Capsule;
